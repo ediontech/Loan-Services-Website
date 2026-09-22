@@ -1,6 +1,6 @@
-# [Project name]
+# Aavansh Loan Services
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A responsive loan services website for Indian residents, offering a clear application journey, support content, and a borrower dashboard for tracking an active loan.
 
 ## Run & Operate
 
@@ -22,23 +22,30 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/loan-services/src/App.tsx` — routed public pages, dashboard, and local interactions
+- `artifacts/loan-services/src/index.css` — Aavansh visual theme, responsive layout, and motion
+- `artifacts/loan-services/vite.config.ts` — Vite artifact configuration and preview routing
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- The first release is frontend-only, using local state for the eligibility flow, dashboard mock data, document feedback, FAQ accordions, and support submission.
+- Wouter provides the lightweight route shell so all public pages and the dashboard work within the root artifact path.
+- The visual system pairs deep teal, warm ivory, and saffron accents to make the financial product feel calm, legible, and memorable.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+- Landing page for loans up to ₹40,000 with eligibility CTA
+- Loan process, About, FAQ, and Support pages
+- Borrower dashboard with application status, repayment schedule, outstanding balance, document actions, and support link
+- Responsive navigation and accessible form feedback across desktop and mobile
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+No additional preferences recorded.
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- The web workflow supplies `PORT` and `BASE_PATH`; use the managed artifact workflow rather than running Vite at the workspace root.
 
 ## Pointers
 

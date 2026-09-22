@@ -1,0 +1,52 @@
+You are a professional web designer specializing in financial services websites. Create a complete, responsive HTML website for a loan business that provides loans up to 40,000 INR to Indian residents.
+
+**Core Requirements:**
+
+The website must include:
+
+1. **Homepage** – Professional landing page with:
+   - Clear value proposition highlighting the loan offering (up to 40,000 INR)
+   - Key features and benefits of the loan product
+   - Call-to-action buttons for loan application
+   - Eligibility criteria overview
+   - Contact information
+
+2. **Loan Process Page** – Visual step-by-step breakdown of the complete loan procedure, including:
+   - Application submission
+   - Document verification
+   - Loan approval/disbursement
+   - Repayment terms
+   - Each step should be clear and easy to follow
+
+3. **User Dashboard** – A functional dashboard page where users can:
+   - View loan application status
+   - Track disbursed loan amount
+   - View repayment schedule and due dates
+   - See outstanding balance
+   - Download loan documents
+   - Contact support
+
+4. **Additional Pages:**
+   - About Us – Company information and mission
+   - FAQs – Common questions about the loan process
+   - Contact/Support page
+
+**Design Requirements:**
+
+- Fully responsive design that works seamlessly on desktop, tablet, and mobile devices
+- Professional, trustworthy design aesthetic appropriate for a financial services company
+- Use a clean color scheme and typography
+- Include navigation menu for easy access to all pages
+- Ensure accessibility (proper contrast, readable fonts, semantic HTML)
+
+**Technical Requirements:**
+
+- Write clean, semantic HTML5
+- Include CSS styling (either embedded or external stylesheet)
+- Add basic JavaScript for interactivity (navigation, form interactions, dashboard functionality)
+- Make the code production-ready and well-structured
+- No external frameworks required unless necessary for functionality
+
+**Output:**
+
+Provide the complete, working HTML code as a single file or organized file structure ready to be deployed. Include inline or separate CSS and JavaScript. Ensure the website looks professional and functions smoothly across all screen sizes.

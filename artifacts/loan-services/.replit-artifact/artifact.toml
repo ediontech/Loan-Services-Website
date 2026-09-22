@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Loan Services"
+description = "A trustworthy, responsive loan services website for Indian residents, with a clear application journey, repayment guidance, support content, and a borrower dashboard for tracking an active loan."
+version = "1.0.0"
+id = "artifacts/loan-services"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24450
+
+[services.development]
+run = "pnpm --filter @workspace/loan-services run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/loan-services", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/loan-services/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24450"
+BASE_PATH = "/"
